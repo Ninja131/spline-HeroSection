@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <!-- nav bar -->
+    <div class="nav-bar">
+        <div class="icon-holder">
+            <i class="fa-solid fa-bars icons"></i>
+        </div>
+        <div class="content-wrap-right">
+            <div class="nav-links">
+              <p class="links">About</p>
+              <p class="links">Catalog</p>
+              <p class="links">delivery</p>
+              <p class="links">Contact</p>
+            </div>
+            <div class="icons-right">
+              <i class="fa-solid fa-magnifying-glass icons"></i>
+              <i class="fa-regular fa-heart icons"></i>
+              <i class="fa-regular fa-circle-user icons"></i>
+            </div>
+        </div>
+    </div>
+
+  <!-- hero box-->
+
+  <div class="main-cointanier">
+    <div class="left-wrap">
+      <div class="left-links">
+        <p class="social">IG</p>
+        <p class="social">FB</p>
+        <p class="social">TW</p>
+      </div>
+      <div class="color-wrap">
+        <div class="color purple"></div>
+        <div class="color brown"></div>
+        <div class="color metal"></div>
+      </div>
+    </div>
+
+
+
+
+    <div class="hero-container">
+      <div class="hero-content-holder">
+        <div class="top-container">
+          <h1>Craft Your Perfect Glow</h1>
+          <p class="hero-p">Personalize your lamp’s color, 
+            texture, and patterns to match your space and mood.</p>
+          <div class="button"><p class="button-text">to Order</p>  <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="bottom-container">
+          <div class="bottom-content-wrap">
+            <i class="fa-regular fa-lightbulb icons"></i>
+            <div class="text-wrap-in">
+              <h6>Durability</h6>
+              <p class="txt-small">the service life of our
+            lamps is from 10 years</p></div></div>
+          <div class="bottom-content-wrap">
+            <i class="fa-regular fa-bookmark icons"></i>
+            <div class="text-wrap-in">
+              <h6>Individual style</h6>
+              <p class="txt-small">the service life of our
+            lamps is from 10 years</p></div></div>
+    
+        </div>
+      </div>
+      <div class="scroll-wrap">
+        <p>SCROLL</p>
+        <i class="fa-solid fa-arrow-right"></i>
+  
+      </div>
+    </div>
+  
+
+    
+
+  </div>
+
+
+
+
+
+    <canvas id="canvas3d"></canvas>
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
+    ></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@1.9.12/build/runtime.js"
+        }
+      }
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
